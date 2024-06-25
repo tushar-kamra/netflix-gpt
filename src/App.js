@@ -1,9 +1,7 @@
+import Body from "./components/Body";
+
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header text-red-500">Hello react!</header>
-        </div>
-    );
+    return <Body />;
 }
 
 export default App;
