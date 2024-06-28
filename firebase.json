@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "tushar-netflix-gpt",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+

@@ -10,7 +10,7 @@ export const checkSignInValidData = (email, password) => {
 
     if (!isPasswordValid) return { password: "Password is not valid" };
 
-    return null;
+    return {};
 };
 
 export const checkSignUpValidData = (name, email, password) => {
@@ -28,5 +28,5 @@ export const checkSignUpValidData = (name, email, password) => {
 
     if (!isPasswordValid) return { password: "Password is not valid" };
 
-    return null;
+    return {};
 };
